@@ -9,8 +9,8 @@ Recent posts
 
 <ul class="posts">
     {% for post in site.posts limit 5 %}
-    <li><a href="{{ BASE_PATH }}{{ post.url }}">**{{ post.title }}**</a></li>
-        <span>{{ post.date | date_to_string }}</span><br><br>
+    <li><a href="{{ BASE_PATH }}{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+        <span>published at {{ post.date | date_to_string }}</span><br><br>
         {{ post.content | strip_html | truncatewords:100}}<br><br>
             <a href="{{ post.url }}">Read more...</a><br><br>
     {% endfor %}
