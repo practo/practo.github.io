@@ -1,11 +1,11 @@
 # Site settings
 title: "Practo Engineering Blog"
 logo: logo.svg
-email: your-email@domain.com
+email: devops@practo.com
 description: >
-    Description goes here
-url: "http://practo.com"
-baseurl: "/engineering-blog"
+    Engineering blog fro Practo
+url: "http://practo.github.io"
+baseurl: "/"
 twitter_username: practo
 github_username:  practo
 
