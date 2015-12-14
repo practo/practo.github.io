@@ -3,7 +3,6 @@ layout: post
 category : migrations
 tags : [redis, rds, dynamodb]
 ---
-{% include JB/setup %}
 
 At Practo we’re constantly looking for ways to improve user experience. A major part of it is ensuring that all our services are responsive and highly available. Over the last week we were faced with a challenge. Our Redis server that stores User data, started bottlenecking on performance.
 
