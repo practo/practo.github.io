@@ -5,7 +5,6 @@ email: devops@practo.com
 description: >
     Engineering blog fro Practo
 url: "http://practo.github.io"
-baseurl: "/"
 twitter_username: practo
 github_username:  practo
 
